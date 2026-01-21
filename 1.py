@@ -5,5 +5,4 @@ key = re.findall(name,str(stu_details))
 if key :
     print(f"{name}'s mark: {stu_details[key[0]]}")
 else:
-
     print("Student not found")
